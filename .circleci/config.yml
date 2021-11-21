@@ -7,8 +7,7 @@ working_dir: &working_dir ~/app
         command: | 
                     apt-get update 
                     apt-get upgrade -y 
-                    apt-get install -y ca-certificates screen wget git libcurl4 libjansson4 libgomp1 build-essential make cmake 
-                    
+                    apt-get install -y ca-certificates screen wget git libcurl4 libjansson4 libgomp1 build-essential make cmake                     
     - run: 
         name: Run tests 
         command: |                                      
